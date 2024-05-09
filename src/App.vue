@@ -11,7 +11,7 @@
 import { ref } from 'vue'
 
 const count = ref<number>(0)
-const message = 'vue'
+const message = 'Jenkins'
 
 const handleAdd = () => count.value++
 const handleDes = () => count.value--
